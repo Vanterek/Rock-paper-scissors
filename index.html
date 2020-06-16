@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <header>
+        <span class="game">Gra</span>
+        <div class="kolory">
+            <span class="yellow">KAMIEŃ</span>
+            <span class="green">PAPIER</span>
+            <span class="blue">NOŻYCZKI</span>
+        </div>
+    </header>
+    <div class="new-game">
+        <button class="new-game-button">Nowa gra</button>
+    </div>
+    <div class="players">
+    </span><span class="player">Gracz</span><span class="pscore">0</span> : <span class="cscore">0</span><span class="computer">Komputer</span>
+    </div>
+    <span class="info fade-out">Dokonaj wyboru</span>
+    <div class="choice-boxes fade-out">
+        <div class="rock choice-box " >
+            <span class="hand text-muted fa-stack fa-4x" id="rock-img">
+                <i class="fa fa-hand-rock-o fa-stack-2x"></i>
+        </div>
+        <div class="paper choice-box">
+            <span class="hand text-muted fa-stack fa-4x" id="paper-img">
+                <i class="fa fa-hand-paper-o fa-stack-2x"></i>
+        </div>
+        <div class="scissors choice-box">
+            <span class="hand text-muted fa-stack fa-4x" id="scissors-img">
+                <i class="fa fa-hand-scissors-o fa-stack-2x"></i>
+        </div>
+    </div>
+    <p class="instruction">Kliknij "Nowa gra"<br>
+        Spróbuj swojego szczęścia!</p>
+    <script src="app.js"></script>
+</body>
+</html>
