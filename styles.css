@@ -96,6 +96,10 @@ header{
     transition: 2s ease;
 }
 
+.small{
+    display: none;
+}
+
 .choice-boxes{
     display: flex;
     margin: 30px auto;
@@ -154,4 +158,33 @@ header{
     transition: 2s ease;
 }
 
+@media (max-width: 425px) {
+    html{
+        width: 100vw;
+        height: 100vh;
+    }
 
+    .players{
+        width: 90%;
+    }
+
+    .choice-box{
+        width: 90px;
+        height: 90px;
+        position: relative;
+    }
+
+    .big{
+        display: none;
+    }
+
+    .small{
+        position: absolute;
+        top: -20px;
+        right: 60px;
+    }
+
+    #paper-img i{
+        right: 55px;
+    }
+}
